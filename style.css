@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+    margin:0px;
+}
+
+h1{
+    display:block;
+    text-align:center;
+    font-size:70px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+    padding: 10px;
+}
+#counter{
+    display:block;
+    text-align:center;
+     font-size:80px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:15px;
+    margin-top:10px;
+}
+#mybuttons{
+    text-align:center;
+}
+.buttons{
+    padding: 20px;
+    color:white;
+    background-color: rgb(166, 166, 239);
+    border-radius: 4px;
+    margin: 20px;
+    transition: background-color 1.0s;
+}
+.buttons:hover{
+    background-color:rgb(81, 81, 245); ;
+}
